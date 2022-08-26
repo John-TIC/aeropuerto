@@ -4,28 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1263e34-fa24-4337-83d2-f2b9043fe791" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aeropuerto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aeropuerto/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aeropuerto/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aeropuerto/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aeropuerto/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aeropuerto/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aeropuerto_app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aeropuerto_app/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aeropuerto_app/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aeropuerto_app/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aeropuerto_app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aeropuerto_app/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aeropuerto_app/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aeropuerto_app/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    <list default="true" id="d1263e34-fa24-4337-83d2-f2b9043fe791" name="Changes" comment="Models, Serializers y BD">
+      <change afterPath="$PROJECT_DIR$/aeropuerto_app/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aeropuerto_app/migrations/0002_avion_marca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aeropuerto/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aeropuertoDB" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuertoDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aeropuerto_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aeropuerto_app/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto_app/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aeropuerto_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,18 +42,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="aeropuerto" type="Python.DjangoServer" factoryName="Django server">
       <module name="aeropuerto" />
@@ -109,8 +102,25 @@
       <workItem from="1660950844633" duration="5464000" />
       <workItem from="1661052818202" duration="117000" />
       <workItem from="1661054058154" duration="9000" />
-      <workItem from="1661120129483" duration="7468000" />
+      <workItem from="1661120129483" duration="8916000" />
+      <workItem from="1661198399816" duration="2367000" />
+      <workItem from="1661210444423" duration="2720000" />
+      <workItem from="1661213228227" duration="1297000" />
+      <workItem from="1661214562181" duration="3745000" />
+      <workItem from="1661263629956" duration="1538000" />
+      <workItem from="1661309703043" duration="1723000" />
+      <workItem from="1661351530158" duration="1481000" />
+      <workItem from="1661392903044" duration="4792000" />
+      <workItem from="1661469203955" duration="1342000" />
     </task>
+    <task id="LOCAL-00001" summary="Models, Serializers y BD">
+      <created>1661130143925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661130143925</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,5 +136,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Models, Serializers y BD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Models, Serializers y BD" />
   </component>
 </project>

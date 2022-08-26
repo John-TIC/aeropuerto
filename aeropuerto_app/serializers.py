@@ -1,4 +1,3 @@
-from django.contrib.gis.gdal.raster import source
 from rest_framework import serializers
 from aeropuerto_app.models import *
 

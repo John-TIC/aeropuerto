@@ -7,6 +7,7 @@ class Avion(models.Model):
     codigo_avion = models.CharField(max_length=20, unique=True)
     tipo_avion = models.CharField(max_length=20)
     ciudad_base = models.CharField(max_length=20)
+    marca = models.CharField(max_length=100)
 
 
 class Piloto(models.Model):
