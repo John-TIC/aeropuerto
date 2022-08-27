@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1263e34-fa24-4337-83d2-f2b9043fe791" name="Changes" comment="Models, Serializers y BD">
-      <change afterPath="$PROJECT_DIR$/aeropuerto_app/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aeropuerto_app/migrations/0002_avion_marca.py" afterDir="false" />
+    <list default="true" id="d1263e34-fa24-4337-83d2-f2b9043fe791" name="Changes" comment="Aplicación aeropuerto con las migraciones iniciales y Views">
+      <change afterPath="$PROJECT_DIR$/aeropuerto_app/migrations/0003_usuario.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aeropuerto_app/migrations/0004_usuario_fecha_nacimiento.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aeropuerto_app/migrations/0005_usuario_token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aeropuerto_app/migrations/0006_alter_usuario_fecha_nacimiento.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aeropuerto/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aeropuerto/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aeropuertoDB" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuertoDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aeropuerto_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto_app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aeropuerto_app/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto_app/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aeropuerto_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2DPo071ALIMw0d8hOa7eCyH54v4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,7 +56,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -111,7 +116,17 @@
       <workItem from="1661309703043" duration="1723000" />
       <workItem from="1661351530158" duration="1481000" />
       <workItem from="1661392903044" duration="4792000" />
-      <workItem from="1661469203955" duration="1342000" />
+      <workItem from="1661469203955" duration="8626000" />
+      <workItem from="1661480748143" duration="1737000" />
+      <workItem from="1661483942712" duration="1195000" />
+      <workItem from="1661485148417" duration="1400000" />
+      <workItem from="1661487311678" duration="881000" />
+      <workItem from="1661489882006" duration="444000" />
+      <workItem from="1661491395665" duration="172000" />
+      <workItem from="1661491570862" duration="60000" />
+      <workItem from="1661492902733" duration="1303000" />
+      <workItem from="1661523332830" duration="13402000" />
+      <workItem from="1661556484535" duration="4198000" />
     </task>
     <task id="LOCAL-00001" summary="Models, Serializers y BD">
       <created>1661130143925</created>
@@ -120,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661130143925</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Aplicación aeropuerto con las migraciones iniciales y Views">
+      <created>1661473187858</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661473187858</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +161,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Models, Serializers y BD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Models, Serializers y BD" />
+    <MESSAGE value="Aplicación aeropuerto con las migraciones iniciales y Views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aplicación aeropuerto con las migraciones iniciales y Views" />
   </component>
 </project>
