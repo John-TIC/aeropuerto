@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1263e34-fa24-4337-83d2-f2b9043fe791" name="Changes" comment="Aplicación aeropuerto con las migraciones iniciales y Views">
-      <change afterPath="$PROJECT_DIR$/aeropuerto_app/migrations/0003_usuario.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aeropuerto_app/migrations/0004_usuario_fecha_nacimiento.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aeropuerto_app/migrations/0005_usuario_token.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aeropuerto_app/migrations/0006_alter_usuario_fecha_nacimiento.py" afterDir="false" />
+    <list default="true" id="d1263e34-fa24-4337-83d2-f2b9043fe791" name="Changes" comment="Aplicación aeropuerto incluyendo validación por token para usuario.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aeropuerto/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aeropuerto/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aeropuertoDB" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuertoDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aeropuerto_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aeropuerto_app/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto_app/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aeropuerto_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto_app/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +49,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -127,6 +120,35 @@
       <workItem from="1661492902733" duration="1303000" />
       <workItem from="1661523332830" duration="13402000" />
       <workItem from="1661556484535" duration="4198000" />
+      <workItem from="1661627220524" duration="775000" />
+      <workItem from="1661640351982" duration="34000" />
+      <workItem from="1661813139216" duration="2953000" />
+      <workItem from="1661891549708" duration="51000" />
+      <workItem from="1661957254559" duration="389000" />
+      <workItem from="1661959984798" duration="86000" />
+      <workItem from="1661961919686" duration="226000" />
+      <workItem from="1662076349517" duration="63000" />
+      <workItem from="1662076747432" duration="1178000" />
+      <workItem from="1662082835097" duration="1628000" />
+      <workItem from="1662088289398" duration="57000" />
+      <workItem from="1662155018635" duration="65000" />
+      <workItem from="1662156675260" duration="119000" />
+      <workItem from="1662323182033" duration="82000" />
+      <workItem from="1662323314445" duration="40000" />
+      <workItem from="1662323729868" duration="402000" />
+      <workItem from="1662718181917" duration="3245000" />
+      <workItem from="1662740667622" duration="154000" />
+      <workItem from="1662741474992" duration="1606000" />
+      <workItem from="1662745270612" duration="31000" />
+      <workItem from="1662750371794" duration="60000" />
+      <workItem from="1662750682655" duration="151000" />
+      <workItem from="1662780416771" duration="870000" />
+      <workItem from="1662835227977" duration="801000" />
+      <workItem from="1662927035242" duration="5938000" />
+      <workItem from="1663084976267" duration="1252000" />
+      <workItem from="1663100846585" duration="703000" />
+      <workItem from="1663121674323" duration="1529000" />
+      <workItem from="1663210778637" duration="1119000" />
     </task>
     <task id="LOCAL-00001" summary="Models, Serializers y BD">
       <created>1661130143925</created>
@@ -142,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661473187858</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Aplicación aeropuerto incluyendo validación por token para usuario.">
+      <created>1661627352404</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661627352404</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +191,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Models, Serializers y BD" />
     <MESSAGE value="Aplicación aeropuerto con las migraciones iniciales y Views" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aplicación aeropuerto con las migraciones iniciales y Views" />
+    <MESSAGE value="Aplicación aeropuerto incluyendo validación por token para usuario." />
+    <option name="LAST_COMMIT_MESSAGE" value="Aplicación aeropuerto incluyendo validación por token para usuario." />
   </component>
 </project>

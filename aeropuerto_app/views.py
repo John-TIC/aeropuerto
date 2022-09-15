@@ -7,6 +7,7 @@ from rest_framework.authtoken.models import Token
 from rest_framework.response import Response
 
 # Create your views here.
+# En las vistas se genera la lógica de negocio y es lo que se conoce en MVC como el Controlador.
 class Usuario_view(viewsets.ModelViewSet):
     queryset = Usuario.objects.all()
     serializer_class = Usuario_Serializer

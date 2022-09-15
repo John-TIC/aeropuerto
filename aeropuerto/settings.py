@@ -25,8 +25,10 @@ SECRET_KEY = 'django-insecure-*d#e-df=p+ao@!6v@($cl%9@w3!6)_^j7hp^qxp-_fe^do6mja
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 AUTH_USER_MODEL = 'aeropuerto_app.Usuario'
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['*']
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_METHODS = ['GET','OPTIONS','PATCH','POST','PUT', 'DELETE',]
+CORS_ALLOW_CREDENTIALS = True
 
 # Application definition
 
@@ -39,6 +41,7 @@ INSTALLED_APPS = [
     'aeropuerto_app.apps.AeropuertoAppConfig',
     'rest_framework',
     'rest_framework.authtoken',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -49,6 +52,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware'
 ]
 
 ROOT_URLCONF = 'aeropuerto.urls'
